@@ -1,0 +1,10 @@
+{% extends 'main.html'%}
+{% block content %}
+    <main class="layout layout--3">
+      <div class="container">
+       {% include 'base/topic_component.html' %}
+       {% include 'base/feed_components.html' %}
+       {% include 'base/activity_component.html' %}
+      </div>
+    </main>
+{% endblock content %}
